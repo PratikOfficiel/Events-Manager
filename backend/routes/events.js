@@ -11,9 +11,11 @@ const {
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
-  console.log(req.token);
+  // console.log(req.token);
+  const user = req.query.user;
+  // console.log("from get /:",user);
   try {
-    const events = await getAll();
+    const events = await getAll(user);
     res.json({ events: events });
   } catch (error) {
     next(error);

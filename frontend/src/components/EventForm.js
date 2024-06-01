@@ -9,6 +9,7 @@ import {
 
 import classes from './EventForm.module.css';
 import { getAuthToken } from '../util/auth';
+import { jwtDecode } from 'jwt-decode';
 
 function EventForm({ method, event }) {
   const data = useActionData();
@@ -94,6 +95,7 @@ export async function action({ request, params }) {
     image: data.get('image'),
     date: data.get('date'),
     description: data.get('description'),
+    author: jwtDecode(token).email
   };
 
   let url = 'http://localhost:8080/events';

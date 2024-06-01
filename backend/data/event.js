@@ -3,12 +3,18 @@ const { v4: generateId } = require('uuid');
 const { NotFoundError } = require('../util/errors');
 const { readData, writeData } = require('./util');
 
-async function getAll() {
+async function getAll(user) {
   const storedData = await readData();
   if (!storedData.events) {
     throw new NotFoundError('Could not find any events.');
   }
-  return storedData.events;
+
+  if(!user) {
+    return storedData.events;
+  }
+
+  console.log("from getAll", user);
+  return storedData.events.filter(event => event.author===user);
 }
 
 async function get(id) {

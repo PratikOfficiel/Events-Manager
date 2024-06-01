@@ -32,6 +32,16 @@ function MainNavigation() {
               Events
             </NavLink>
           </li>
+          {token && <li>
+            <NavLink
+              to="/myEvents"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              My Events
+            </NavLink>
+          </li>}
           <li>
             <NavLink
               to="/newsletter"

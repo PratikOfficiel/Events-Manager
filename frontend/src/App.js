@@ -16,6 +16,7 @@ import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
 import AuthenticationPage, {action as authAction} from './pages/Authentication';
 import {action as logoutAction, tokenLoader} from './pages/Logout';
 import { checkAuthLoader } from './util/auth';
+import MyEvents, {loader as myEventsLoader} from './pages/MyEvents';
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,11 @@ const router = createBrowserRouter([
             action: manipulateEventAction,
           },
         ],
+      },
+      {
+        path: 'myEvents',
+        element: <MyEvents/>,
+        loader: myEventsLoader
       },
       {
         path: 'auth',

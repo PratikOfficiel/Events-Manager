@@ -1,1 +1,50 @@
-{"events":[{"title":"Varanasi","image":"https://www.savaari.com/blog/wp-content/uploads/2023/09/Varanasi_ghats1.webp","date":"2024-05-25","description":"Varanasi: where faith fills the air like fragrance.","id":"56a37d43-2b36-412d-81ed-a1031afa53cb"}],"users":[{"email":"test@email.com","password":"$2a$12$AGJsbAYIP7sAPvuB.RqdruyFALtWldh0MQFhJYP2SP7Lp09CMyQd.","id":"8a4258db-7e74-4688-983e-9f0e7c8278fe"},{"email":"test1@email.com","password":"$2a$12$qox/KvGq3WZqqcS6u7UUwusNZ0W91r0J4CJSBT4qwXDcEBnxyPzay","id":"49bf3740-28be-43fd-9357-7a18af984abe"}]}
+{
+    "events": [
+        {
+            "title": "Dhinka ka Event",
+            "image": "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg",
+            "date": "2024-06-14",
+            "description": "Dhinka ne banaya event",
+            "author": "dhinka@email.com",
+            "id": "2b82f5f9-69dc-429f-bf5b-177eeff0e38c"
+        },
+        {
+            "title": "test ka event",
+            "image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
+            "date": "2024-06-07",
+            "description": "test ka event!!1",
+            "author": "test@email.com",
+            "id": "07167461-e30e-4e2a-8492-8a1f8209c8d7"
+        },
+        {
+            "title": "Varanasi",
+            "image": "https://www.savaari.com/blog/wp-content/uploads/2023/09/Varanasi_ghats1.webp",
+            "date": "2024-05-25",
+            "description": "Varanasi: where faith fills the air like fragrance.",
+            "id": "56a37d43-2b36-412d-81ed-a1031afa53cb",
+            "author": "test@email.com"
+        }
+    ],
+    "users": [
+        {
+            "email": "test@email.com",
+            "password": "$2a$12$AGJsbAYIP7sAPvuB.RqdruyFALtWldh0MQFhJYP2SP7Lp09CMyQd.",
+            "id": "8a4258db-7e74-4688-983e-9f0e7c8278fe"
+        },
+        {
+            "email": "test1@email.com",
+            "password": "$2a$12$qox/KvGq3WZqqcS6u7UUwusNZ0W91r0J4CJSBT4qwXDcEBnxyPzay",
+            "id": "49bf3740-28be-43fd-9357-7a18af984abe"
+        },
+        {
+            "email": "test2@email.com",
+            "password": "$2a$12$21WC62rKGxSJy6TxnYw8Z.Th9NGIzwLmrgHQO3fOiP6CpCDlo5gpe",
+            "id": "f1f114a4-5fe5-4388-a9aa-b9325bff38cd"
+        },
+        {
+            "email": "dhinka@email.com",
+            "password": "$2a$12$DSlF3hsUphXNE/gA7qxMo.Bs2wNCObjem7Lwg1d1vvWho0rwTMGOG",
+            "id": "1f9ff8bd-062c-4584-90f5-826d40d63937"
+        }
+    ]
+}
